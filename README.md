@@ -33,6 +33,7 @@ put the data into ./data
 ### train model
 
 ``` 
+
 python train.py 
 
 ```
@@ -40,6 +41,7 @@ python train.py
 ### predict 
 
 ``` 
+
 python predict.py 
 
 ```
