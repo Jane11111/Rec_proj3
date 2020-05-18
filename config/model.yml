@@ -1,0 +1,13 @@
+vocab_size: 10000
+embedding_size: 300
+feature_size: 100
+window_size: 3
+max_text_len: 10751
+xu: 50
+yi: 50
+k: 50
+batch_size: 100
+epoch: 1
+learning_rate: 0.002
+embedding_path: "./data/vocab.txt"
+save_path: "./model/checkpoints/model.pt"
