@@ -12,20 +12,23 @@ pytorch 1.5.0
 
 ## Dataset
 
-Amazon Digital_Music_5.json
+dataset: Amazon Digital_Music_5.json
+
+pretrained word embedding: GoogleNews-vectors-negative300.bin
 
 
 ## How to run the code
 
 ### prepare data
 
-> put the data into ./data
-> python preclean.py
+put the data into ./data
+
+``` python preclean.py ```
 
 ### train model
 
-> python train.py
+``` python train.py ```
 
 ### predict 
 
-> python predict.py
+``` python predict.py ````
