@@ -24,12 +24,22 @@ pretrained word embedding: GoogleNews-vectors-negative300.bin
 
 put the data into ./data
 
-``` python preclean.py ```
+``` 
+
+ python preclean.py 
+
+```
 
 ### train model
 
-``` python train.py ```
+``` 
+python train.py 
+
+```
 
 ### predict 
 
-``` python predict.py ````
+``` 
+python predict.py 
+
+```
